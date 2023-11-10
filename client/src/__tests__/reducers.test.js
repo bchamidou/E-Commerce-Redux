@@ -1,4 +1,4 @@
-import { reducer } from '../utils/reducers';
+import { reducer } from '../../../../E-Commerce-Redux4/client/src/utils/reducers';
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -9,7 +9,9 @@ import {
   UPDATE_CURRENT_CATEGORY,
   CLEAR_CART,
   TOGGLE_CART
-} from '../utils/actions';
+} from '../../../../E-Commerce-Redux4/client/src/utils/actions';
+
+// create a sample of what our global state will look like
 
 const initialState = {
   products: [],
@@ -68,8 +70,10 @@ test('REMOVE_FROM_CART', () => {
     type: REMOVE_FROM_CART,
     _id: '1'
   });
-
+// cart is still open
   expect(newState1.cartOpen).toBe(true);
+
+   // the second item should now be the first
   expect(newState1.cart.length).toBe(1);
   expect(newState1.cart[0]._id).toBe('2');
 
@@ -78,6 +82,7 @@ test('REMOVE_FROM_CART', () => {
     _id: '2'
   });
 
+  // cart is empty and closed
   expect(newState2.cartOpen).toBe(false);
   expect(newState2.cart.length).toBe(0);
 

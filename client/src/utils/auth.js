@@ -1,4 +1,14 @@
 import decode from 'jwt-decode';
+// import { jwtDecode } from "jwt-decode";
+
+// const token = "eyJ0eXAiO.../// jwt token";
+// const decoded = jwtDecode(token);
+
+// const { default: jwt_decode } = require("jwt-decode");
+
+// const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c";
+// console.log(jwt_decode(token));
+
 
 class AuthService {
   getProfile() {
