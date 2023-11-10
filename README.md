@@ -67,7 +67,7 @@ THEN I find that the app uses Redux instead of the Context API
 The installation can be completed by following these instructions:
 
 ***Requirments***
-[Node.js](https://nodejs.org/en/) | [MongoDB](https://www.npmjs.com/package/Mongoose) | [React](https://www.npmjs.com/package/React) | [Vite](https://www.npmjs.com/package/Vite) | [Apollo Server](https://www.npmjs.com/package/appollo) | [Stripe](https://www.npmjs.com/package/Stripe) | [GrapghQL](https://www.npmjs.com/package/GrapghQL) | [Redux](https://www.npmjs.com/package/Redux) | [JWT-Decode](https://www.npmjs.com/package/JWT Decode) | [Nodemon](https://www.npmjs.com/package/Nodemon) | [Concurrently](https://www.npmjs.com/package/Concurrently) | [React-Router](https://www.npmjs.com/package/React-Router)
+[Node.js](https://nodejs.org/en/) | [MongoDB](https://www.npmjs.com/package/Mongoose) | [React](https://www.npmjs.com/package/React) | [Vite](https://www.npmjs.com/package/Vite) | [Apollo Server](https://www.npmjs.com/package/appollo) | [Stripe](https://www.npmjs.com/package/Stripe) | [GrapghQL](https://www.npmjs.com/package/GrapghQL) | [Redux](https://www.npmjs.com/package/Redux) | [JWT-Decode](https://www.npmjs.com/package/JWT-Decode) | [Nodemon](https://www.npmjs.com/package/Nodemon) | [Concurrently](https://www.npmjs.com/package/Concurrently) | [React-Router](https://www.npmjs.com/package/React-Router)
 
 1. Clone the GitHub repository to you local computer. Click on the following link.
 * Repository link : https://github.com/bchamidou/E-Commerce-Redux
